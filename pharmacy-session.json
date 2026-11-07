@@ -1,0 +1,981 @@
+{
+  "schema": 1,
+  "env": "prod",
+  "environments": {
+    "test": {
+      "version": "1.5.1",
+      "api": 2,
+      "adapter": false,
+      "clients": {
+        "shop": 2,
+        "pickup": 2,
+        "support": 2
+      },
+      "branch": "center",
+      "cart": {
+        "P01": 1
+      },
+      "promo": "",
+      "orders": [
+        {
+          "id": "T-0001",
+          "request": "test-1794042405298-afe537",
+          "code": "DEMO-001",
+          "branch": "center",
+          "state": "reserved",
+          "total": 25000,
+          "discount": 0,
+          "created": "2026-11-07T09:06:45.298Z",
+          "version": "1.5.1",
+          "lines": [
+            {
+              "id": "P01",
+              "quantity": 1,
+              "price": 25000
+            }
+          ]
+        },
+        {
+          "id": "T-0002",
+          "request": "test-1794042571617-19c2ce",
+          "code": "DEMO-001",
+          "branch": "center",
+          "state": "reserved",
+          "total": 25000,
+          "discount": 0,
+          "created": "2026-11-07T09:09:31.617Z",
+          "version": "1.5.1",
+          "lines": [
+            {
+              "id": "P01",
+              "quantity": 1,
+              "price": 25000
+            }
+          ]
+        },
+        {
+          "id": "T-0003",
+          "request": "test-1794042821475-3c0c39",
+          "code": "DEMO-004",
+          "branch": "center",
+          "state": "reserved",
+          "total": 25000,
+          "discount": 0,
+          "created": "2026-11-07T09:13:41.475Z",
+          "version": "1.5.1",
+          "lines": [
+            {
+              "id": "P01",
+              "quantity": 1,
+              "price": 25000
+            }
+          ]
+        },
+        {
+          "id": "T-0004",
+          "request": "test-1794042854160-6ac00c",
+          "code": "DEMO-006",
+          "branch": "center",
+          "state": "reserved",
+          "total": 25000,
+          "discount": 0,
+          "created": "2026-11-07T09:14:28.604Z",
+          "version": "1.5.1",
+          "lines": [
+            {
+              "id": "P01",
+              "quantity": 1,
+              "price": 25000
+            }
+          ]
+        },
+        {
+          "id": "T-0005",
+          "request": "test-1794042895006-ec07c1",
+          "code": "DEMO-007",
+          "branch": "center",
+          "state": "reserved",
+          "total": 25000,
+          "discount": 0,
+          "created": "2026-11-07T09:14:55.006Z",
+          "version": "1.5.1",
+          "lines": [
+            {
+              "id": "P01",
+              "quantity": 1,
+              "price": 25000
+            }
+          ]
+        }
+      ],
+      "nextOrder": 6,
+      "stocks": {
+        "P01": {
+          "center": 0,
+          "park": 2
+        },
+        "P02": {
+          "center": 12,
+          "park": 8
+        },
+        "P03": {
+          "center": 1,
+          "park": 5
+        },
+        "P04": {
+          "center": 9,
+          "park": 3
+        },
+        "P05": {
+          "center": 4,
+          "park": 0
+        },
+        "P06": {
+          "center": 2,
+          "park": 1
+        },
+        "P07": {
+          "center": 0,
+          "park": 6
+        },
+        "P08": {
+          "center": 5,
+          "park": 4
+        },
+        "P09": {
+          "center": 7,
+          "park": 7
+        },
+        "P10": {
+          "center": 0,
+          "park": 0
+        },
+        "P11": {
+          "center": 3,
+          "park": 5
+        },
+        "P12": {
+          "center": 20,
+          "park": 20
+        }
+      },
+      "fault": "none",
+      "pending": "test-1794042928881-add732"
+    },
+    "prod": {
+      "version": "1.4.0",
+      "api": 1,
+      "adapter": false,
+      "clients": {
+        "shop": 1,
+        "pickup": 1,
+        "support": 1
+      },
+      "branch": "center",
+      "cart": {},
+      "promo": "",
+      "orders": [
+        {
+          "id": "P-0001",
+          "request": "prod-1794041230668-d98e3b",
+          "code": "DEMO-001",
+          "branch": "center",
+          "state": "ready",
+          "total": 25000,
+          "discount": 0,
+          "created": "2026-11-07T08:47:10.668Z",
+          "version": "1.4.0",
+          "lines": [
+            {
+              "id": "P01",
+              "quantity": 1,
+              "price": 25000
+            }
+          ]
+        }
+      ],
+      "nextOrder": 2,
+      "stocks": {
+        "P01": {
+          "center": 7,
+          "park": 2
+        },
+        "P02": {
+          "center": 12,
+          "park": 8
+        },
+        "P03": {
+          "center": 1,
+          "park": 5
+        },
+        "P04": {
+          "center": 9,
+          "park": 3
+        },
+        "P05": {
+          "center": 4,
+          "park": 0
+        },
+        "P06": {
+          "center": 2,
+          "park": 1
+        },
+        "P07": {
+          "center": 0,
+          "park": 6
+        },
+        "P08": {
+          "center": 5,
+          "park": 4
+        },
+        "P09": {
+          "center": 7,
+          "park": 7
+        },
+        "P10": {
+          "center": 0,
+          "park": 0
+        },
+        "P11": {
+          "center": 3,
+          "park": 5
+        },
+        "P12": {
+          "center": 20,
+          "park": 20
+        }
+      },
+      "fault": "none",
+      "pending": null
+    }
+  },
+  "logs": [
+    {
+      "time": "2026-11-07T09:16:04.423Z",
+      "env": "prod",
+      "version": "1.4.0",
+      "type": "RESTORE_DATA",
+      "text": "Восстановлен снимок. Заказов до: 2; после: 1."
+    },
+    {
+      "time": "2026-11-07T09:15:50.331Z",
+      "env": "prod",
+      "version": "1.4.0",
+      "type": "ROLLBACK_CONFIG",
+      "text": "Возвращена предыдущая конфигурация; данные сохранены."
+    },
+    {
+      "time": "2026-11-07T09:15:41.281Z",
+      "env": "prod",
+      "version": "1.5.1",
+      "type": "ENVIRONMENT",
+      "text": "Открыт Рабочий контур (модель)"
+    },
+    {
+      "time": "2026-11-07T09:15:28.881Z",
+      "env": "test",
+      "version": "1.5.1",
+      "type": "STOCK_REJECT",
+      "text": "Недостаточный остаток P01 в выбранной точке. Заказ не записан.",
+      "request": "test-1794042928881-add732"
+    },
+    {
+      "time": "2026-11-07T09:15:21.247Z",
+      "env": "test",
+      "version": "1.5.1",
+      "type": "STOCK_CHANGE",
+      "text": "P01 / center: новый остаток 0"
+    },
+    {
+      "time": "2026-11-07T09:15:09.948Z",
+      "env": "test",
+      "version": "1.5.1",
+      "type": "CART",
+      "text": "Добавлен P01; количество 1"
+    },
+    {
+      "time": "2026-11-07T09:14:55.006Z",
+      "env": "test",
+      "version": "1.5.1",
+      "type": "ORDER_COMMITTED",
+      "text": "Создан T-0005; сумма 250,00 ₽; остатки обновлены.",
+      "request": "test-1794042895006-ec07c1"
+    },
+    {
+      "time": "2026-11-07T09:14:50.036Z",
+      "env": "test",
+      "version": "1.5.1",
+      "type": "CART",
+      "text": "Добавлен P01; количество 1"
+    },
+    {
+      "time": "2026-11-07T09:14:28.605Z",
+      "env": "test",
+      "version": "1.5.1",
+      "type": "ORDER_COMMITTED",
+      "text": "Создан T-0004; сумма 250,00 ₽; остатки обновлены.",
+      "request": "test-1794042854160-6ac00c"
+    },
+    {
+      "time": "2026-11-07T09:14:14.160Z",
+      "env": "test",
+      "version": "1.5.1",
+      "type": "TIMEOUT_BEFORE",
+      "text": "Ответ не получен до записи заказа.",
+      "request": "test-1794042854160-6ac00c"
+    },
+    {
+      "time": "2026-11-07T09:14:01.018Z",
+      "env": "test",
+      "version": "1.5.1",
+      "type": "FAULT_SET",
+      "text": "Сценарий следующего нового заказа: before"
+    },
+    {
+      "time": "2026-11-07T09:13:52.741Z",
+      "env": "test",
+      "version": "1.5.1",
+      "type": "CART",
+      "text": "Добавлен P01; количество 1"
+    },
+    {
+      "time": "2026-11-07T09:13:41.475Z",
+      "env": "test",
+      "version": "1.5.1",
+      "type": "ORDER_COMMITTED",
+      "text": "Создан T-0003; сумма 250,00 ₽; остатки обновлены.",
+      "request": "test-1794042821475-3c0c39"
+    },
+    {
+      "time": "2026-11-07T09:13:33.598Z",
+      "env": "test",
+      "version": "1.5.1",
+      "type": "CART",
+      "text": "Добавлен P01; количество 1"
+    },
+    {
+      "time": "2026-11-07T09:09:39.045Z",
+      "env": "test",
+      "version": "1.5.1",
+      "type": "IDEMPOTENT_REPLAY",
+      "text": "Возвращён существующий T-0002, новая запись не создана.",
+      "request": "test-1794042571617-19c2ce"
+    },
+    {
+      "time": "2026-11-07T09:09:31.617Z",
+      "env": "test",
+      "version": "1.5.1",
+      "type": "TIMEOUT_AFTER",
+      "text": "Запись завершена, ответ клиенту не получен.",
+      "request": "test-1794042571617-19c2ce"
+    },
+    {
+      "time": "2026-11-07T09:09:31.617Z",
+      "env": "test",
+      "version": "1.5.1",
+      "type": "ORDER_COMMITTED",
+      "text": "Создан T-0002; сумма 250,00 ₽; остатки обновлены.",
+      "request": "test-1794042571617-19c2ce"
+    },
+    {
+      "time": "2026-11-07T09:08:52.234Z",
+      "env": "test",
+      "version": "1.5.1",
+      "type": "FAULT_SET",
+      "text": "Сценарий следующего нового заказа: after"
+    },
+    {
+      "time": "2026-11-07T09:08:33.513Z",
+      "env": "test",
+      "version": "1.5.1",
+      "type": "CART",
+      "text": "Добавлен P01; количество 1"
+    },
+    {
+      "time": "2026-11-07T09:08:25.133Z",
+      "env": "test",
+      "version": "1.5.1",
+      "type": "ENVIRONMENT",
+      "text": "Открыт Тестовый контур"
+    },
+    {
+      "time": "2026-11-07T09:08:02.706Z",
+      "env": "prod",
+      "version": "1.5.1",
+      "type": "ORDER_COMMITTED",
+      "text": "Создан P-0002; сумма 250,00 ₽; остатки обновлены.",
+      "request": "prod-1794042482706-81a90f"
+    },
+    {
+      "time": "2026-11-07T09:07:49.472Z",
+      "env": "prod",
+      "version": "1.5.1",
+      "type": "CART",
+      "text": "Добавлен P01; количество 1"
+    },
+    {
+      "time": "2026-11-07T09:07:38.889Z",
+      "env": "prod",
+      "version": "1.5.1",
+      "type": "ENVIRONMENT",
+      "text": "Открыт Рабочий контур (модель)"
+    },
+    {
+      "time": "2026-11-07T09:07:15.682Z",
+      "env": "test",
+      "version": "1.5.1",
+      "type": "DEPLOY",
+      "text": "Выпущена конфигурация {\"version\":\"1.5.1\",\"api\":2,\"adapter\":false,\"clients\":{\"shop\":2,\"pickup\":2,\"support\":2}}; рабочие данные сохранены."
+    },
+    {
+      "time": "2026-11-07T09:06:45.298Z",
+      "env": "test",
+      "version": "1.5.1",
+      "type": "ORDER_COMMITTED",
+      "text": "Создан T-0001; сумма 250,00 ₽; остатки обновлены.",
+      "request": "test-1794042405298-afe537"
+    },
+    {
+      "time": "2026-11-07T09:06:40.116Z",
+      "env": "test",
+      "version": "1.5.1",
+      "type": "CART",
+      "text": "Добавлен P01; количество 1"
+    },
+    {
+      "time": "2026-11-07T09:06:36.774Z",
+      "env": "test",
+      "version": "1.5.1",
+      "type": "CART",
+      "text": "Корзина очищена"
+    },
+    {
+      "time": "2026-11-07T09:06:26.305Z",
+      "env": "test",
+      "version": "1.5.1",
+      "type": "STOCK_REJECT",
+      "text": "Недостаточный остаток P03 в выбранной точке. Заказ не записан.",
+      "request": "test-1794042386305-e34b8a"
+    },
+    {
+      "time": "2026-11-07T09:06:15.772Z",
+      "env": "test",
+      "version": "1.5.1",
+      "type": "CART",
+      "text": "Количество P03: 2"
+    },
+    {
+      "time": "2026-11-07T09:06:11.796Z",
+      "env": "test",
+      "version": "1.5.1",
+      "type": "CART",
+      "text": "Добавлен P03; количество 1"
+    },
+    {
+      "time": "2026-11-07T09:05:23.306Z",
+      "env": "test",
+      "version": "1.5.1",
+      "type": "RESET_TEST",
+      "text": "Сброшены только тестовые данные."
+    },
+    {
+      "time": "2026-11-07T09:04:36.056Z",
+      "env": "test",
+      "version": "1.5.1",
+      "type": "CART",
+      "text": "Удалён P01"
+    },
+    {
+      "time": "2026-11-07T09:04:26.014Z",
+      "env": "test",
+      "version": "1.5.1",
+      "type": "SEARCH",
+      "text": "Поиск «»; категория «все»"
+    },
+    {
+      "time": "2026-11-07T09:04:01.115Z",
+      "env": "test",
+      "version": "1.5.1",
+      "type": "PROMO",
+      "text": "Введён DEMO10"
+    },
+    {
+      "time": "2026-11-07T09:03:51.954Z",
+      "env": "test",
+      "version": "1.5.1",
+      "type": "CART",
+      "text": "Добавлен P01; количество 4"
+    },
+    {
+      "time": "2026-11-07T09:03:51.483Z",
+      "env": "test",
+      "version": "1.5.1",
+      "type": "CART",
+      "text": "Добавлен P01; количество 3"
+    },
+    {
+      "time": "2026-11-07T09:03:51.008Z",
+      "env": "test",
+      "version": "1.5.1",
+      "type": "CART",
+      "text": "Добавлен P01; количество 2"
+    },
+    {
+      "time": "2026-11-07T09:03:49.968Z",
+      "env": "test",
+      "version": "1.5.1",
+      "type": "CART",
+      "text": "Добавлен P01; количество 1"
+    },
+    {
+      "time": "2026-11-07T09:03:43.952Z",
+      "env": "test",
+      "version": "1.5.1",
+      "type": "SEARCH",
+      "text": "Поиск «аква»; категория «все»"
+    },
+    {
+      "time": "2026-11-07T09:03:33.128Z",
+      "env": "test",
+      "version": "1.5.1",
+      "type": "CONFIG",
+      "text": "Тестовая конфигурация: {\"version\":\"1.5.1\",\"api\":2,\"adapter\":false,\"clients\":{\"shop\":2,\"pickup\":2,\"support\":2}}"
+    },
+    {
+      "time": "2026-11-07T09:03:09.976Z",
+      "env": "test",
+      "version": "1.5.0-rc",
+      "type": "DEFECT",
+      "text": "Сохранён дефект Оформление заказа сверх остатка в выбранной точке"
+    },
+    {
+      "time": "2026-11-07T09:02:33.360Z",
+      "env": "test",
+      "version": "1.5.0-rc",
+      "type": "DEFECT",
+      "text": "Сохранён дефект Промокод не применяется на граничной сумме 1000,00 ₽"
+    },
+    {
+      "time": "2026-11-07T09:02:07.023Z",
+      "env": "test",
+      "version": "1.5.0-rc",
+      "type": "DEFECT",
+      "text": "Сохранён дефект Поиск чувствителен к регистру"
+    },
+    {
+      "time": "2026-11-07T08:55:52.037Z",
+      "env": "test",
+      "version": "1.5.0-rc",
+      "type": "EVIDENCE",
+      "text": "Добавлен результат теста TC-05 / R7"
+    },
+    {
+      "time": "2026-11-07T08:55:32.806Z",
+      "env": "test",
+      "version": "1.5.0-rc",
+      "type": "EVIDENCE",
+      "text": "Добавлен результат теста TC-04 / R6"
+    },
+    {
+      "time": "2026-11-07T08:55:15.437Z",
+      "env": "test",
+      "version": "1.5.0-rc",
+      "type": "EVIDENCE",
+      "text": "Добавлен результат теста TC-03 / R3"
+    },
+    {
+      "time": "2026-11-07T08:54:55.346Z",
+      "env": "test",
+      "version": "1.5.0-rc",
+      "type": "EVIDENCE",
+      "text": "Добавлен результат теста TC-02 / R4"
+    },
+    {
+      "time": "2026-11-07T08:54:34.393Z",
+      "env": "test",
+      "version": "1.5.0-rc",
+      "type": "EVIDENCE",
+      "text": "Добавлен результат теста TC-01 / R1"
+    },
+    {
+      "time": "2026-11-07T08:53:23.358Z",
+      "env": "test",
+      "version": "1.5.0-rc",
+      "type": "CONFIG",
+      "text": "Тестовая конфигурация: {\"version\":\"1.5.0-rc\",\"api\":2,\"adapter\":true,\"clients\":{\"shop\":2,\"pickup\":1,\"support\":1}}"
+    },
+    {
+      "time": "2026-11-07T08:51:39.440Z",
+      "env": "test",
+      "version": "1.5.0-rc",
+      "type": "ORDER_COMMITTED",
+      "text": "Создан T-0001; сумма 2 500,00 ₽; остатки обновлены.",
+      "request": "test-1794041499440-c9d112"
+    },
+    {
+      "time": "2026-11-07T08:49:50.213Z",
+      "env": "test",
+      "version": "1.5.0-rc",
+      "type": "CART",
+      "text": "Количество P03: 2"
+    },
+    {
+      "time": "2026-11-07T08:49:35.924Z",
+      "env": "test",
+      "version": "1.5.0-rc",
+      "type": "CART",
+      "text": "Добавлен P03; количество 1"
+    },
+    {
+      "time": "2026-11-07T08:49:28.547Z",
+      "env": "test",
+      "version": "1.5.0-rc",
+      "type": "CART",
+      "text": "Корзина очищена"
+    },
+    {
+      "time": "2026-11-07T08:49:13.940Z",
+      "env": "test",
+      "version": "1.5.0-rc",
+      "type": "PROMO",
+      "text": "Введён DEMO10"
+    },
+    {
+      "time": "2026-11-07T08:49:03.334Z",
+      "env": "test",
+      "version": "1.5.0-rc",
+      "type": "CART",
+      "text": "Добавлен P01; количество 4"
+    },
+    {
+      "time": "2026-11-07T08:49:02.769Z",
+      "env": "test",
+      "version": "1.5.0-rc",
+      "type": "CART",
+      "text": "Добавлен P01; количество 3"
+    },
+    {
+      "time": "2026-11-07T08:49:02.030Z",
+      "env": "test",
+      "version": "1.5.0-rc",
+      "type": "CART",
+      "text": "Добавлен P01; количество 2"
+    },
+    {
+      "time": "2026-11-07T08:49:00.440Z",
+      "env": "test",
+      "version": "1.5.0-rc",
+      "type": "CART",
+      "text": "Добавлен P01; количество 1"
+    },
+    {
+      "time": "2026-11-07T08:48:59.252Z",
+      "env": "test",
+      "version": "1.5.0-rc",
+      "type": "SEARCH",
+      "text": "Поиск «»; категория «все»"
+    },
+    {
+      "time": "2026-11-07T08:48:40.194Z",
+      "env": "test",
+      "version": "1.5.0-rc",
+      "type": "SEARCH",
+      "text": "Поиск «аква»; категория «все»"
+    },
+    {
+      "time": "2026-11-07T08:48:19.350Z",
+      "env": "test",
+      "version": "1.5.0-rc",
+      "type": "ENVIRONMENT",
+      "text": "Открыт Тестовый контур"
+    },
+    {
+      "time": "2026-11-07T08:47:49.753Z",
+      "env": "prod",
+      "version": "1.4.0",
+      "type": "BACKUP",
+      "text": "Снимок рабочего контура: 1 заказов."
+    },
+    {
+      "time": "2026-11-07T08:47:30.543Z",
+      "env": "prod",
+      "version": "1.4.0",
+      "type": "ORDER_STATUS",
+      "text": "P-0001: Готов к выдаче"
+    },
+    {
+      "time": "2026-11-07T08:47:10.668Z",
+      "env": "prod",
+      "version": "1.4.0",
+      "type": "ORDER_COMMITTED",
+      "text": "Создан P-0001; сумма 250,00 ₽; остатки обновлены.",
+      "request": "prod-1794041230668-d98e3b"
+    },
+    {
+      "time": "2026-11-07T08:46:50.093Z",
+      "env": "prod",
+      "version": "1.4.0",
+      "type": "CART",
+      "text": "Добавлен P01; количество 1"
+    },
+    {
+      "time": "2026-11-07T08:46:37.986Z",
+      "env": "prod",
+      "version": "1.4.0",
+      "type": "ENVIRONMENT",
+      "text": "Открыт Рабочий контур (модель)"
+    },
+    {
+      "time": "2026-11-07T08:40:17.853Z",
+      "env": "test",
+      "version": "1.5.0-rc",
+      "type": "START",
+      "text": "Начата работа со стендом."
+    }
+  ],
+  "tests": [
+    {
+      "ref": "TC-01 / R1",
+      "status": "fail",
+      "steps": "Ввести \"аква\" в поиск",
+      "expected": "Товар найден.",
+      "actual": "0 товаров",
+      "time": "2026-11-07T08:54:34.393Z",
+      "env": "test",
+      "version": "1.5.0-rc",
+      "api": 2,
+      "adapter": true,
+      "clients": {
+        "shop": 2,
+        "pickup": 1,
+        "support": 1
+      }
+    },
+    {
+      "ref": "TC-02 / R4",
+      "status": "fail",
+      "steps": "Корзина 1000 руб, промокод DEMO10",
+      "expected": "Скидка 10%",
+      "actual": "Скидка не применена",
+      "time": "2026-11-07T08:54:55.346Z",
+      "env": "test",
+      "version": "1.5.0-rc",
+      "api": 2,
+      "adapter": true,
+      "clients": {
+        "shop": 2,
+        "pickup": 1,
+        "support": 1
+      }
+    },
+    {
+      "ref": "TC-03 / R3",
+      "status": "fail",
+      "steps": "2 термометра в Центр",
+      "expected": "Ошибка остатка",
+      "actual": "Заказ создан",
+      "time": "2026-11-07T08:55:15.437Z",
+      "env": "test",
+      "version": "1.5.0-rc",
+      "api": 2,
+      "adapter": true,
+      "clients": {
+        "shop": 2,
+        "pickup": 1,
+        "support": 1
+      }
+    },
+    {
+      "ref": "TC-04 / R6",
+      "status": "pass",
+      "steps": "Открыть Выдачу без адаптера",
+      "expected": "SCHEMA_MISMATCH",
+      "actual": "SCHEMA_MISMATCH",
+      "time": "2026-11-07T08:55:32.806Z",
+      "env": "test",
+      "version": "1.5.0-rc",
+      "api": 2,
+      "adapter": true,
+      "clients": {
+        "shop": 2,
+        "pickup": 1,
+        "support": 1
+      }
+    },
+    {
+      "ref": "TC-05 / R7",
+      "status": "pass",
+      "steps": "Включить адаптер, открыть Выдачу",
+      "expected": "Заказ виден",
+      "actual": "Заказ виден",
+      "time": "2026-11-07T08:55:52.037Z",
+      "env": "test",
+      "version": "1.5.0-rc",
+      "api": 2,
+      "adapter": true,
+      "clients": {
+        "shop": 2,
+        "pickup": 1,
+        "support": 1
+      }
+    }
+  ],
+  "defects": [
+    {
+      "title": "Поиск чувствителен к регистру",
+      "severity": "Средняя",
+      "priority": "P2: следующий выпуск",
+      "detail": "Шаги: В тестовом контуре (1.5.0-rc) ввести в поиск «аква» (строчными буквами).\nОжидалось: Найден товар «Аква-Демо».\nФакт: Найдено 0 товаров. Поиск работает по точному совпадению с учетом регистра.\nВлияние: Пользователь не может найти товар, если введет его с маленькой буквы. Ухудшает UX.",
+      "retest": "",
+      "time": "2026-11-07T09:02:07.023Z",
+      "env": "test",
+      "version": "1.5.0-rc"
+    },
+    {
+      "title": "Промокод не применяется на граничной сумме 1000,00 ₽",
+      "severity": "Высокая",
+      "priority": "P1: до выпуска",
+      "detail": "Шаги: Собрать корзину ровно на 1000,00 ₽ (4 шт. «Аква-Демо»). Применить промокод DEMO10.\nОжидалось: Скидка 10% (100,00 ₽), итог 900,00 ₽.\nФакт: Скидка не применена. Система требует сумму строго больше 1000 ₽ (условие >100000 вместо >=100000 в коде).\nВлияние: Нарушение бизнес-правила R4. Покупатель теряет скидку на граничной сумме.",
+      "retest": "",
+      "time": "2026-11-07T09:02:33.360Z",
+      "env": "test",
+      "version": "1.5.0-rc"
+    },
+    {
+      "title": "Оформление заказа сверх остатка в выбранной точке",
+      "severity": "Блокирующий",
+      "priority": "P1: до выпуска",
+      "detail": "Шаги: Добавить 2 шт. «Термометр Макет» в корзину. Выбрать точку «Центр» (остаток 1 шт.). Оформить заказ.\nОжидалось: Ошибка «Недостаточно товара», заказ не создан.\nФакт: Заказ создан. Система проверила суммарный остаток по всей сети (1 в Центре + 5 в Парке = 6), а не остаток в выбранной точке.\nВлияние: Критическое. Невозможно выдать товар, так как его физически нет в выбранной аптеке.\n",
+      "retest": "",
+      "time": "2026-11-07T09:03:09.976Z",
+      "env": "test",
+      "version": "1.5.0-rc"
+    }
+  ],
+  "tickets": [],
+  "decisions": [
+    {
+      "time": "2026-11-07T09:07:15.682Z",
+      "action": "Выпуск",
+      "version": "1.5.1",
+      "reason": "Дефекты исправлены в 1.5.1. Конфигурация совместима"
+    },
+    {
+      "time": "2026-11-07T09:15:50.331Z",
+      "action": "Откат конфигурации",
+      "version": "1.4.0",
+      "reason": "Сохранено заказов: 2"
+    },
+    {
+      "time": "2026-11-07T09:16:04.423Z",
+      "action": "Восстановление снимка",
+      "version": "1.4.0",
+      "reason": "Заказов до: 2; после: 1"
+    }
+  ],
+  "backup": {
+    "type": "pharmacy-prod-backup",
+    "schema": 1,
+    "created": "2026-11-07T08:47:49.753Z",
+    "data": {
+      "version": "1.4.0",
+      "api": 1,
+      "adapter": false,
+      "clients": {
+        "shop": 1,
+        "pickup": 1,
+        "support": 1
+      },
+      "branch": "center",
+      "cart": {},
+      "promo": "",
+      "orders": [
+        {
+          "id": "P-0001",
+          "request": "prod-1794041230668-d98e3b",
+          "code": "DEMO-001",
+          "branch": "center",
+          "state": "ready",
+          "total": 25000,
+          "discount": 0,
+          "created": "2026-11-07T08:47:10.668Z",
+          "version": "1.4.0",
+          "lines": [
+            {
+              "id": "P01",
+              "quantity": 1,
+              "price": 25000
+            }
+          ]
+        }
+      ],
+      "nextOrder": 2,
+      "stocks": {
+        "P01": {
+          "center": 7,
+          "park": 2
+        },
+        "P02": {
+          "center": 12,
+          "park": 8
+        },
+        "P03": {
+          "center": 1,
+          "park": 5
+        },
+        "P04": {
+          "center": 9,
+          "park": 3
+        },
+        "P05": {
+          "center": 4,
+          "park": 0
+        },
+        "P06": {
+          "center": 2,
+          "park": 1
+        },
+        "P07": {
+          "center": 0,
+          "park": 6
+        },
+        "P08": {
+          "center": 5,
+          "park": 4
+        },
+        "P09": {
+          "center": 7,
+          "park": 7
+        },
+        "P10": {
+          "center": 0,
+          "park": 0
+        },
+        "P11": {
+          "center": 3,
+          "park": 5
+        },
+        "P12": {
+          "center": 20,
+          "park": 20
+        }
+      },
+      "fault": "none",
+      "pending": null
+    }
+  },
+  "previousRelease": {
+    "version": "1.4.0",
+    "api": 1,
+    "adapter": false,
+    "clients": {
+      "shop": 1,
+      "pickup": 1,
+      "support": 1
+    }
+  },
+  "notes": {
+    "team": "24-03 ИСиП / Мясникова Анастасия",
+    "conclusion": "Рекомендую выпустить сборку 1.5.1 с конфигурацией API v2 + клиенты v2. Дефекты исправлены. Открытые риски: не проверена нагрузка."
+  }
+}
